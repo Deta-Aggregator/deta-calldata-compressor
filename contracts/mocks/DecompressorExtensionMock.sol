@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.19;
 
-import { TokenMock } from "@1inch/solidity-utils/contracts/mocks/TokenMock.sol";
+import { TokenMock } from "@deta/solidity-utils/contracts/mocks/TokenMock.sol";
 import { DecompressorExtension } from "../DecompressorExtension.sol";
 
 contract DecompressorExtensionMock is TokenMock, DecompressorExtension {

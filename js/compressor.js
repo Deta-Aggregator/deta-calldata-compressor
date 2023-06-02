@@ -1,5 +1,5 @@
 const { ethers } = require('hardhat');
-const { trim0x } = require('@1inch/solidity-utils');
+const { trim0x } = require('@deta/solidity-utils');
 
 class CompressDataDescription {
     constructor (startByte, amountBytes, method) {

@@ -1,13 +1,13 @@
 <div align="center">
-    <img src="https://github.com/1inch/calldata-compressor/blob/master/.github/1inch_github_w.svg#gh-light-mode-only">
-    <img src="https://github.com/1inch/calldata-compressor/blob/master/.github/1inch_github_b.svg#gh-dark-mode-only">
+    <img src="https://github.com/deta/calldata-compressor/blob/master/.github/deta_github_w.svg#gh-light-mode-only">
+    <img src="https://github.com/deta/calldata-compressor/blob/master/.github/deta_github_b.svg#gh-dark-mode-only">
 </div>
 
 # Calldata Compressor and Decompressor
 
-[![Build Status](https://github.com/1inch/calldata-compressor/workflows/CI/badge.svg)](https://github.com/1inch/calldata-compressor/actions)
-[![Coverage Status](https://codecov.io/gh/1inch/calldata-compressor/branch/master/graph/badge.svg?token=HJWBIVXQQA)](https://codecov.io/gh/1inch/calldata-compressor)
-[![NPM Package](https://img.shields.io/npm/v/@1inch/calldata-compressor.svg)](https://www.npmjs.org/package/@1inch/calldata-compressor)
+[![Build Status](https://github.com/deta/calldata-compressor/workflows/CI/badge.svg)](https://github.com/deta/calldata-compressor/actions)
+[![Coverage Status](https://codecov.io/gh/deta/calldata-compressor/branch/master/graph/badge.svg?token=HJWBIVXQQA)](https://codecov.io/gh/deta/calldata-compressor)
+[![NPM Package](https://img.shields.io/npm/v/@deta/calldata-compressor.svg)](https://www.npmjs.org/package/@deta/calldata-compressor)
 
 
 This is a project with script for compress calldata and Solidity contract for decompress it.
@@ -62,7 +62,7 @@ To use the `decompressed` function, call it directly. This function returns the 
 
 To use compress script use `compress` method
 ```
-const { compress } = require('@1inch/calldata-compressor/js/compressor.js');
+const { compress } = require('@deta/calldata-compressor/js/compressor.js');
 ```
 
 ### Description of `compress` function
